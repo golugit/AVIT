@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="3">
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="left"
+            android:hint="FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <EditText
+            android:id="@+id/middleName"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="left"
+            android:hint="MiddleName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <EditText
+            android:id="@+id/surname"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="left"
+            android:hint="surname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:id="@+id/confirmEmail"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Confirm_Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Confirm_Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:background="@drawable/register_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:hint="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

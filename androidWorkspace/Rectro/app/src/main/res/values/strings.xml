@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">img</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register_page">RegisterPage</string>
+    <string name="title_activity_forgate_password">ForgatePassword</string>
+    <string name="title_activity_forgot__password">Forgot_Password</string>
+    <string name="title_activity_list_item_model">List_item_model</string>
+    <string name="title_activity_imagedetails">Imagedetails</string>
+    <string name="title_activity_content_list">ContentList</string>
+</resources>

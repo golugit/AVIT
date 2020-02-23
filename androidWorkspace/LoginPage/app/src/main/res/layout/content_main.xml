@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/imgs">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"/>
+        <EditText
+            android:id="@+id/password"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:hint="Password"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:background="@drawable/login_button"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:hint="Submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="67dp">
+
+            <Button
+                android:id="@+id/register"
+                android:layout_marginTop="20dp"
+                android:hint="Registration"
+                android:background="@drawable/login_button"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:id="@+id/forgot"
+                android:hint="forgot"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_button"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+
+
+        <ImageView
+
+            android:id="@+id/view"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/view"
+            />
+
+        <TextView
+
+            android:id="@+id/customer"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:hint="CustomerSuppot" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

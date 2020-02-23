@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "401073856696",
+    "firebase_url": "https://button-b04e6.firebaseio.com",
+    "project_id": "button-b04e6",
+    "storage_bucket": "button-b04e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401073856696:android:0934d3be7e84f9cdb4944d",
+        "android_client_info": {
+          "package_name": "org.test.googlebutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401073856696-69q1qbvrn2i34k51lbl7tr6c8sgppg25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.test.googlebutton",
+            "certificate_hash": "72799308b11277a6001becc1be872266ea0c3bf1"
+          }
+        },
+        {
+          "client_id": "401073856696-igdeag6mij8ircegfks1l09t9na1o3ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfKJEoHAaPR8sCg6t2L2Git8M8-gN0EBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401073856696-igdeag6mij8ircegfks1l09t9na1o3ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1078392855333",
+    "firebase_url": "https://gsign-1402f.firebaseio.com",
+    "project_id": "gsign-1402f",
+    "storage_bucket": "gsign-1402f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078392855333:android:6603ccb0324e1dc7aa58cc",
+        "android_client_info": {
+          "package_name": "org.test.gsign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078392855333-2e4c13lkiui7aq3a4b52megaa047d60p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.test.gsign",
+            "certificate_hash": "72799308b11277a6001becc1be872266ea0c3bf1"
+          }
+        },
+        {
+          "client_id": "1078392855333-5m3hpr5ir6i0slu19pa0u2kgs9bt0g02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUAR-gndllwXmFPws_MMa7UgET9G1KXoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078392855333-5m3hpr5ir6i0slu19pa0u2kgs9bt0g02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

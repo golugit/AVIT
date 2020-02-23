@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginPageCompleted</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registation_page">RegistationPage</string>
+    <string name="title_activity_forg0t_page">Forg0tPage</string>
+    <string name="title_activity_customer_support">CustomerSupport</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

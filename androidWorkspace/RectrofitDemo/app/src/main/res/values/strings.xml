@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RectrofitDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_content_list">ContentList</string>
+    <string name="title_activity_glide_image">GlideImage</string>
+    <string name="title_activity_image_show">ImageShow</string>
+</resources>
