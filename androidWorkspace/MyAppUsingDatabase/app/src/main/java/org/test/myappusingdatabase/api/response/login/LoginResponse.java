@@ -1,4 +1,4 @@
-package org.test.myappusingdatabase.api.response;
+package org.test.myappusingdatabase.api.response.login;
 
 public class LoginResponse {
 

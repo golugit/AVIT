@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.test.myappusingdatabase">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,22 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".RegisterPage"
+            android:label="@string/title_activity_register_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Splash"
             android:label="Splash"
-            android:theme="@style/AppTheme.NoActionBar"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".ForgotPage"
             android:label="@string/title_activity_forgot_page"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Registationpage"
-            android:label="@string/title_activity_registationpage"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
@@ -37,9 +36,7 @@
         <activity
             android:name=".Loginpage"
             android:label="@string/title_activity_loginpage"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
