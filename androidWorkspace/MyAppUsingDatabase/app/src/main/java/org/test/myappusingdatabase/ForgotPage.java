@@ -100,7 +100,7 @@ public class ForgotPage extends AppCompatActivity {
 
             public void onResponse(Call<ForgotResponse> call, Response<ForgotResponse> response) {
                 Log.i("***onResponse**","^^");
-                ForgotResponse forgotResponse = response.body();
+                ForgotResponse forgotResponse = response.body();    
                 if(forgotResponse.isStatus()){
 
                     Log.i("**REsponseIfCondition**","^^");
