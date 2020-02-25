@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 
 public interface RegisterInterface {
 
-    String BASE_URL = "http://192.168.2.5/MyAppUsingDatabase/";
+    String BASE_URL = "http://192.168.1.36/MyAppUsingDatabase/";
 
     @GET("registationApi.php")
     Call<RegisterResponse> registerUser(

@@ -7,7 +7,7 @@ import retrofit2.http.Query;
 
 public interface ApiInterface {
 
-    String BASE_URL = "http://192.168.2.5/MyAppUsingDatabase/" ;
+    String BASE_URL = "http://192.168.1.36/MyAppUsingDatabase/" ;
 
     @GET("loginApi.php")
     Call<LoginResponse> validateLogin(

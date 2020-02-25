@@ -73,6 +73,7 @@ TextView forgot,register;
                 else
                 {
 
+
                     validateUser(email.getText().toString(),password.getText().toString());
 
                     /*Log.i("*****else*****","^^^^^");
